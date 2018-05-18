@@ -255,5 +255,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
+
+        void OnTriggerEnter(Collider other)
+        {
+            this.gameObject.transform.position = new Vector3(302, 130, 284);
+        }
     }
 }
