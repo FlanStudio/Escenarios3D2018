@@ -6,10 +6,15 @@ using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
+
+
+
     [RequireComponent(typeof (CharacterController))]
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
+        public GameObject GoWallUp;
+
         [SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
@@ -258,7 +263,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         void OnTriggerEnter(Collider other)
         {
-            this.gameObject.transform.position = new Vector3(302, 130, 284);
+            if(other.gameObject == GoWallUp)
+                this.gameObject.transform.position = new Vector3(302, 130, 284);
         }
     }
 }
