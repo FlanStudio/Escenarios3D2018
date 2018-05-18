@@ -14,6 +14,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     public class FirstPersonController : MonoBehaviour
     {
         public GameObject GoWallUp;
+        public GameObject GoWallDown;
 
         [SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
@@ -263,8 +264,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject == GoWallUp)
+            if (other.gameObject == GoWallUp)
+            {
                 this.gameObject.transform.position = new Vector3(302, 130, 284);
+            }
+               
+            else if (other.gameObject == GoWallDown)
+            {
+                this.gameObject.transform.position = new Vector3(292, 13, 276);
+            }
+               
         }
     }
 }
