@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000004, guid: 13d16ad08d268394f8dd8ce2b4c62762,
+  m_LightingDataAsset: {fileID: 112002108, guid: 13d16ad08d268394f8dd8ce2b4c62762,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -39332,48 +39332,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 33600065873974358, guid: 57efe575502b4af4d8ae2587ce997450,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 772457722}
     - target: {fileID: 64211772677156380, guid: 57efe575502b4af4d8ae2587ce997450,
         type: 2}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 772457722}
-    - target: {fileID: 1067099640017714, guid: 57efe575502b4af4d8ae2587ce997450, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140124493900036, guid: 57efe575502b4af4d8ae2587ce997450, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1656028665205920, guid: 57efe575502b4af4d8ae2587ce997450, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 108844174759865986, guid: 57efe575502b4af4d8ae2587ce997450,
+    - target: {fileID: 33600065873974358, guid: 57efe575502b4af4d8ae2587ce997450,
         type: 2}
-      propertyPath: m_Lightmapping
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 108844174759865986, guid: 57efe575502b4af4d8ae2587ce997450,
-        type: 2}
-      propertyPath: m_Shadows.m_Type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 108533173750549938, guid: 57efe575502b4af4d8ae2587ce997450,
-        type: 2}
-      propertyPath: m_Lightmapping
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 108533173750549938, guid: 57efe575502b4af4d8ae2587ce997450,
-        type: 2}
-      propertyPath: m_Shadows.m_Type
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 772457722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 57efe575502b4af4d8ae2587ce997450, type: 2}
   m_IsPrefabParent: 0
