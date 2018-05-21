@@ -18,11 +18,11 @@ public class animation_exp : MonoBehaviour {
 		
 	}
 
-	void OnCollisionEnter(Collision player_col)
+	void OnTriggerEnter(Collider player_col)
 	{
-		if(player_col.gameObject.CompareTag("Player"))
+		if(player_col.gameObject.tag == "Player")
         {
-            anim.Play("explosion");
+			anim.Play ("explosion");
         }
 	}
 
