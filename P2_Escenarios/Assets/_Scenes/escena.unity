@@ -22648,7 +22648,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.26, y: 0.19, z: 0.11}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.09, z: 0}
 --- !u!1 &616970368
 GameObject:
   m_ObjectHideFlags: 0
@@ -29963,7 +29963,7 @@ Prefab:
     - target: {fileID: 198025297644178862, guid: 59613c4fba049ac458765400d0d7af33,
         type: 2}
       propertyPath: randomSeed
-      value: -2118509463
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_LocalScale.x
@@ -31340,7 +31340,7 @@ Prefab:
     - target: {fileID: 198025297644178862, guid: 59613c4fba049ac458765400d0d7af33,
         type: 2}
       propertyPath: randomSeed
-      value: -1073868044
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_LocalScale.x
@@ -34338,7 +34338,7 @@ Prefab:
     - target: {fileID: 198025297644178862, guid: 59613c4fba049ac458765400d0d7af33,
         type: 2}
       propertyPath: randomSeed
-      value: -2043903852
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_LocalScale.x
@@ -34938,7 +34938,7 @@ Prefab:
     - target: {fileID: 198025297644178862, guid: 59613c4fba049ac458765400d0d7af33,
         type: 2}
       propertyPath: randomSeed
-      value: 1868666556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_LocalScale.x
@@ -35401,7 +35401,7 @@ Prefab:
     - target: {fileID: 198025297644178862, guid: 59613c4fba049ac458765400d0d7af33,
         type: 2}
       propertyPath: randomSeed
-      value: 722866404
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_LocalScale.x
@@ -50104,14 +50104,6 @@ Prefab:
     - target: {fileID: 1912100974580548, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
       propertyPath: m_Name
       value: huge_fire_fixed (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2.2283053
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393365206010638, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.5842481
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59613c4fba049ac458765400d0d7af33, type: 2}
