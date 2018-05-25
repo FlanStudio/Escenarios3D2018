@@ -15,14 +15,13 @@ public class animation_exp : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		
 	}
 
 	void OnTriggerEnter(Collider player_col)
 	{
 		if(player_col.gameObject.tag == "Player")
         {
-			anim.Play ("explosion");
+			anim.Play("explosion");
         }
 	}
 
